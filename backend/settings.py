@@ -54,7 +54,8 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:8000",
     "http://localhost:3000",
-    "http://praneeappbackend.onrender.com",
+    "https://praneeappbackend.onrender.com",
+    "praneeappbackend.onrender.com",
     "http://10.99.47.181:3000",
     "http://10.99.47.181:8000",
     "http://localhost:8000",
