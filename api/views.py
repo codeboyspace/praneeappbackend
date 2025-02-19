@@ -38,7 +38,7 @@ def get_uploaded_photo(request, upload_id):
         photo_url = UPLOADS.get(upload_id)
         if photo_url:
             # Assuming photo_url is something like 'media/filename.jpg'
-            full_photo_url = f"http://10.99.47.181:8000/media/media/{photo_url.split('/')[-1]}"
+            full_photo_url = f"https://praneeappbackend.onrender.com/media/media/{photo_url.split('/')[-1]}"
             return JsonResponse({"photo_url": full_photo_url})
         return JsonResponse({"error": "Photo not found"}, status=404)
     except Exception as e:
