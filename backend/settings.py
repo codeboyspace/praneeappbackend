@@ -21,7 +21,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    '10.99.47.181',  # Your machine's IP address
+    '10.99.47.181',
+    'praneeappbackend.onrender.com',  # Added Render domain
 ]
 
 # Installed applications
