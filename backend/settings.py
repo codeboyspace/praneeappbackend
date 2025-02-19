@@ -21,6 +21,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
+    'frontend-eosin-six-51.vercel.app',
     '10.99.47.181',
     'praneeappbackend.onrender.com',  # Added Render domain
 ]
@@ -57,6 +58,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://praneeappbackend.onrender.com",
     "praneeappbackend.onrender.com",
+    "frontend-eosin-six-51.vercel.app",
     "http://10.99.47.181:3000",
     "http://10.99.47.181:8000",
     "http://localhost:8000",
